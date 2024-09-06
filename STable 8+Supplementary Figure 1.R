@@ -10,7 +10,6 @@ library(survminer)
 library(dplyr)
 library(glmnet)
 library(pROC)
-library(corrplot)
 
 data<-as.data.frame(fread("/Public/mzm/metaPRS/data/final.data/UKB_baseline.csv"))
 data_PLCO<-as.data.frame(fread("/Public/mzm/metaPRS/data/final.data/PLCO_baseline.csv"))
